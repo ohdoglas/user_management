@@ -1,5 +1,6 @@
 <?php
-include("../src/public/header.html")
+include("../src/public/header.html");
+include("../src/config/database.php");
 ?>
 
 <!DOCTYPE html>
@@ -28,5 +29,6 @@ include("../src/public/header.html")
 
 
 <?php
-include("../src/public/footer.html")
+include("../src/public/footer.html");
+mysqli_close($conn);
 ?>
